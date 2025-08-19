@@ -38,7 +38,7 @@ export default function Hero() {
             <img
               src={myPic}
               alt="Abhishek Suneeth Kumar"
-              className="w-36 h-36 sm:w-44 sm:h-44 md:w-64 md:h-64 rounded-full object-cover shadow-lg ring-1 ring-black/10"
+              className="w-36 h-36 sm:w-44 sm:h-44 md:w-60 md:h-60 rounded-full object-cover shadow-lg ring-1 ring-black/10"
             />
           </div>
         </motion.div>
