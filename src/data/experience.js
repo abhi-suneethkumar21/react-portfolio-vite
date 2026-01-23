@@ -6,6 +6,7 @@ const exp = [
     range: "Jul 2025 — Present",
     location: "Bangalore, IN",
     points: [
+      "Building and integrating AI agents into an existing ChatOps platform using AWS Bedrock Agents, RAG pipelines, and custom Action Groups, enabling natural-language access to enterprise systems and automating operational workflows.",
       "Designed and owned Incident Status Page with one-click Email/Teams comms.",
       "Received appreciation as a team from the MD of the company and various other stakeholders",
     ],
@@ -13,7 +14,7 @@ const exp = [
   {
     role: "Software Engineer 1",
     company: "Epsilon",
-    range: "Aug 2023 — Jul 2025",
+    range: "Aug 2023 — Jun 2025",
     location: "Bangalore, IN",
     points: [
       "Lead development of SRE Insights dashboard used across Delivery, Engineering & Ops.",

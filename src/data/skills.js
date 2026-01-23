@@ -30,6 +30,11 @@ const skills = [
     icon: "Users",
     items: ["Confluence / Documentation"],
   },
+  {
+    category: "AI & Data",
+    icon: "BrainCircuit",
+    items: ["AI Agents", "Amazon Bedrock"],
+  }
 ];
 
 export default skills;

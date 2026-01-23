@@ -23,6 +23,12 @@ const projects = [
       "Backstage-based hub to showcase and provide access to AI products and services across the org.",
     tags: ["Backstage", "React", "Okta"],
   },
+  {
+    title: "AI Agents for ChatOps",
+    description:
+      "Developed AI Agents for team-wise document querying and to automate certain integral workflows and enhance productivity using LLMs and custom integrations for a teams bot.",
+    tags: ["AI Agents", "Amazon Bedrock", "Python", "APIs"],
+  }
 ];
 
 export default projects;

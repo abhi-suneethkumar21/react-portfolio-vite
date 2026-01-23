@@ -1,7 +1,7 @@
 // src/components/SkillsMatrix.jsx
 import React from "react";
 import skills from "../data/skills.js";
-import { Code2, ServerCog, Cloud, Lock, ListChecks, Users } from "lucide-react";
+import { Code2, ServerCog, Cloud, Lock, ListChecks, Users,BrainCircuit } from "lucide-react";
 
 const iconMap = {
   Code2,
@@ -10,6 +10,7 @@ const iconMap = {
   Lock,
   ListChecks,
   Users,
+  BrainCircuit
 };
 
 export default function SkillsMatrix() {

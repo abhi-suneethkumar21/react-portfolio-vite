@@ -21,10 +21,11 @@ export default function Hero() {
               Abhishek Suneeth Kumar
             </h1>
             <p className="mt-4 max-w-2xl text-lg text-gray-600 dark:text-gray-300">
-              I am passionate about programming with a focus on web, app
-              development, and artificial intelligence. I build fast, reliable
-              solutions using React, modern APIs, and cloud deployments - always
-              driven to learn, grow, and create impactful technology.
+              Software Engineer with experience delivering scalable internal platforms,
+              automation systems, and intelligent, data-driven applications. I specialize in endto-end ownership, from designing user-facing interfaces to building backend
+              services, deploying cloud-native solutions as well as building AI Agents. I enjoy solving complex
+              engineering problems, working with modern technologies, and building
+              impactful features with reliability and speed.
             </p>
 
             <div className="mt-6 flex gap-3">
