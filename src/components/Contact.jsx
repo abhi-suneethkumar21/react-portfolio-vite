@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from "react";
+import { motion } from "framer-motion";
 import { Send } from "lucide-react";
 
 export default function Contact() {
@@ -30,7 +31,14 @@ export default function Contact() {
   const formValid = (message?.trim()?.length || 0) > 0;
 
   return (
-    <section id="contact" className="scroll-mt-24">
+    <motion.section
+      id="contact"
+      className="scroll-mt-24"
+      initial={{ opacity: 0, y: 32 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-80px" }}
+      transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+    >
       <div className="card p-6 sm:p-8">
         <h2 className="text-2xl font-bold">Contact</h2>
         <p className="text-sm text-gray-700 dark:text-gray-300 mt-1">
@@ -79,6 +87,6 @@ export default function Contact() {
           </div>
         </form>
       </div>
-    </section>
+    </motion.section>
   );
 }

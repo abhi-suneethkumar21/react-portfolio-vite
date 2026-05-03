@@ -1,13 +1,19 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function ProjectCard({ title, description, tags }) {
   return (
-    <article className="card p-5 hover:shadow-xl transition">
-      <div className="flex items-start justify-between gap-3">
-        <h3 className="text-lg font-semibold text-brand-600 dark:text-brand-400">
-          {title}
-        </h3>
-      </div>
+    <motion.article
+      className="card p-5 cursor-default hover:border-brand-500/30 transition-colors duration-200 h-full"
+      whileHover={{
+        y: -6,
+        boxShadow: "0 20px 40px rgba(37, 99, 235, 0.13)",
+      }}
+      transition={{ duration: 0.25, ease: "easeOut" }}
+    >
+      <h3 className="text-lg font-semibold text-brand-600 dark:text-brand-400">
+        {title}
+      </h3>
       <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">
         {description}
       </p>
@@ -21,6 +27,6 @@ export default function ProjectCard({ title, description, tags }) {
           </span>
         ))}
       </div>
-    </article>
+    </motion.article>
   );
 }

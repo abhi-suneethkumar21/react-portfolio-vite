@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-gray-50 dark:bg-[#080e1a];
+  }
+}
+
 @layer utilities {
   .container-max {
     @apply max-w-6xl mx-auto px-4;
@@ -17,4 +27,11 @@
   .btn-ghost {
     @apply btn bg-transparent hover:bg-black/5 dark:hover:bg-white/10;
   }
+}
+
+@keyframes blob-drift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25%       { transform: translate(40px, -60px) scale(1.08); }
+  50%       { transform: translate(-30px, 40px) scale(0.94); }
+  75%       { transform: translate(20px, -20px) scale(1.04); }
 }

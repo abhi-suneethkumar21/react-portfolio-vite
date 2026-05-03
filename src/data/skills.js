@@ -13,7 +13,7 @@ const skills = [
   {
     category: "DevOps & Cloud",
     icon: "Cloud",
-    items: ["Nginx", "Docker", "AWS (Fargate, S3)", "GoCD (CI/CD)"],
+    items: ["Nginx", "Docker", "AWS (ECS, Fargate, EC2, Lambda, S3)", "CI/CD"],
   },
   {
     category: "Identity & Security",
@@ -31,10 +31,15 @@ const skills = [
     items: ["Confluence / Documentation"],
   },
   {
-    category: "AI & Data",
+    category: "AI & GenAI",
     icon: "BrainCircuit",
-    items: ["AI Agents", "Amazon Bedrock"],
-  }
+    items: ["Amazon Bedrock Agents", "RAG", "LLMs", "MCP", "Google ADK", "OpenSearch", "ElastiCache"],
+  },
+  {
+    category: "Observability & Testing",
+    icon: "Activity",
+    items: ["Grafana (k6)", "CloudWatch"],
+  },
 ];
 
 export default skills;

@@ -6,9 +6,10 @@ const exp = [
     range: "Jul 2025 — Present",
     location: "Bangalore, IN",
     points: [
-      "Building and integrating AI agents into an existing ChatOps platform using AWS Bedrock Agents, RAG pipelines, and custom Action Groups, enabling natural-language access to enterprise systems and automating operational workflows.",
-      "Designed and owned Incident Status Page with one-click Email/Teams comms.",
-      "Received appreciation as a team from the MD of the company and various other stakeholders",
+      "Designed and deployed production-grade RAG pipelines on Amazon Bedrock Knowledge Bases with OpenSearch vector indices, using semantic chunking, hybrid search, and reranking; reduced end-to-end latency from 30s to 10s handling ~300 RPM.",
+      "Built LLM-powered agent workflows using Bedrock Inline Agents with custom Action Groups, and architected a runtime-configurable agent framework via MCP servers on AgentCore Runtime for dynamic tool and knowledge injection.",
+      "Engineered a distributed incident communication platform on AWS ECS/Fargate with a many-to-many subscription system for multi-channel notifications, eliminating 80% of manual coordination across teams.",
+      "Epsilon India Impact Award finalist across 3 independently nominated solutions; received commendation from the Managing Director.",
     ],
   },
   {
